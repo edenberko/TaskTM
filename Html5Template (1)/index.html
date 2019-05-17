@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>טכנולוגיות למידה דף נחיתה</title>
+    <meta name="description" content="טופס למעוניינים בתואר ראשון בטכנולוגיות למידה " />
+    <meta name="keywords" content="טכנולוגיה, למידה , hit, עיצוב , תכנות, הדרכה" />
+    <meta name="author" content="edenberko" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img id="imag" src="imags/lerning1.JPG" />
+            <h1>
+                מחפש תואר המשלב מספר תחומים?<br />
+                הגעת למקום הנכון!
+            </h1>
+            <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js"
+                    type="text/javascript"></script>
+        </header>
+        <article>
+            <section>
+                <h2>תואר ראשון B.A בטכנולוגויות למידה</h2>
+                <br />
+                <p>
+                    תואר המשלב בין שלושה תחומים עיקריים<br />
+                    <strong>
+                        הדרכה
+                        עיצוב
+                        וטכנולוגיה.
+                    </strong>
+                    <br />
+                    לימודים אלו מאפשרים לכל אחד להתשלב<br />
+                    בתעשייה ולעשות את הצעד הראשון בעולם הדיגיטלי.
+                </p>
+                <br />
+                <h3>מעוניינים במידע נוסף, אנא מלאו את הפרטים.</h3>
+                <br />
+            </section>
+        </article>
+            <form class="pure-form">
+                <input type="hidden" id="myEmail" name="name" value="edenberko95@gmail.com">
+                <label for="myFN">
+                    שם פרטי:<br />
+                    <input type="text" id="fName" placeholder="שם פרטי" />
+                </label>
+                <br />
+                <label for="myLN" >
+                    שם משפחה:<br />
+                    <input type="text" id="lName" placeholder="שם משפחה" />
+                </label>
+                <br />
+                <label for="myPh">
+                    מספר טלפון:<br />
+                    <input type="text" id="phone" placeholder="טלפון" />
+                </label>
+                <br />
+                <label for="myEm">
+                    כתובת e-mail:<br />
+                    <input type="text" id="email" placeholder="email" />
+                </label>
+                <br />
+                <input type="submit" id="SendForm" class="pure-button pure-button-primary" value="שלח" />
+                <div id="feedback"></div>
+            </form>
+        
+    </div>
+</body>
+</html>
